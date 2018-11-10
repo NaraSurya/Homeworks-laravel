@@ -75,7 +75,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav nav-pills mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item ml-5 active">
+                        <li class="nav-item">
                             <a class="nav-link mx-3" href="mahasiswa">Mahasiswa</a>
                         </li>
                         <li class="nav-item">
