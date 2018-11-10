@@ -69,23 +69,24 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white py-3">
             <div class="container">
                 <a class="navbar-brand" href="#">Nara Surya</a>
-                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                <button class="navbar-toggler hidden-lg-up ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav nav-pills mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item ml-5 active">
                             <a class="nav-link mx-3" href="mahasiswa">Mahasiswa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-3" href="prodi">Prodi</a>
                         </li>
                     </ul>
+                    <div class="ml-auto ">
+                        <a class="btn btn-sm btn-purple p-2 px-3" href="https://github.com/NaraSurya/Homeworks-laravel">Source Code</a>
+                    </div>
                 </div>
-                <div class="ml-auto">
-                    <a class="btn btn-sm btn-purple p-2 px-3" href="https://github.com/NaraSurya/Homeworks-laravel">Source Code</a>
-                </div>
+                
             </div>
         </nav>
 

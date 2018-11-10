@@ -11,7 +11,7 @@
         </div>
     </div>
     
-    <table class="table bg-white">
+    <table class="table bg-white table-responsive">
         @foreach ($prodis as $prodi)
             <tr>
                 

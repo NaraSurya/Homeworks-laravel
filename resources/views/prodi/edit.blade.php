@@ -9,14 +9,14 @@
             </div>
         </div>
        <div class="row form-group">
-        <div class="col-2">
+        <div class="col-sm-12 col-md-2">
             {!! Form::label('prodi' , 'Nama prodi') !!}
         </div>
         <div class="col-sm-12 col-md-8">
-            {!! Form::text('nama_prodi',$prodi->nama_prodi , ['class'=>'form-control']) !!}
+            {!! Form::text('nama_prodi',$prodi->nama_prodi , ['class'=>'form-control mb-3']) !!}
         </div>
         <div class="col-sm-12 text-sm-center col-md-2">
-            {!! Form::submit('save' , ['class'=>'btn btn-md btn-success' , 'style'=>'width: 8vw'])!!}
+            {!! Form::submit('save' , ['class'=>'btn btn-md btn-success btn-table'])!!}
         </div>
        </div>
 
